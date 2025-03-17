@@ -1,0 +1,21 @@
+﻿bin/Debug/net8.0/
+obj/Debug/net8.0/
+
+git rm -r --cached bin obj
+git commit -m "Removed bin and obj from tracking"
+git push origin main
+
+bin/ 	# ignore bin directory 
+*.obj 	# ignore any files with .obj postfix 
+
+OBJ 
+bin 
+
+[Bb]in/ 
+[Oo]bj/ 
+
+/bin 
+/OBJ 
+.vs/ 
+bin/ 
+obj/ 
